@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-manrope: Manrope;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --default-color-white: #fff;
+  --secondary-color-secondary-light: #eee;
+  --color-teal: #2a746e;
+  --secondary-color-secondry: #999;
+  --default-color-black: #000;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-3xs: 10px;
+  --gap-4xs: 9px;
+
+  /* Paddings */
+  --padding-mini: 15px;
+
+  /* border radiuses */
+  --br-6xl: 25px;
+  --br-8xs: 5px;
+}
