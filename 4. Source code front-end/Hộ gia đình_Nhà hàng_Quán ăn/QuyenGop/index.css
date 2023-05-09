@@ -1,0 +1,402 @@
+.background-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.remember-me {
+  position: relative;
+  font-weight: 500;
+}
+.label {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.left-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sf-symbol-xmarkcirclefill {
+  position: relative;
+  width: 17px;
+  height: 17px;
+}
+.close-button,
+.content {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.close-button {
+  display: none;
+  padding: 0 var(--padding-base) 0 0;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.email {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-base);
+  align-items: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-body);
+}
+.content1,
+.email,
+.remember-me-group,
+.remember-me-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.remember-me-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  color: #5b5e63;
+}
+.content1,
+.remember-me-group {
+  flex-direction: row;
+  align-items: center;
+}
+.remember-me-group {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.whatsapp-image-2022-05-14-at-1 {
+  position: relative;
+  width: 305px;
+  height: 122px;
+  object-fit: cover;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-parent,
+.text-fields-child {
+  align-self: stretch;
+}
+.text-fields {
+  position: absolute;
+  width: 81.12%;
+  top: calc(50% - 302px);
+  right: 9.84%;
+  left: 9.04%;
+  border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+  height: 385.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+  color: var(--color-primary);
+}
+.loi-thc-phm {
+  position: absolute;
+  height: 20.61%;
+  width: 88.12%;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #080a24;
+  display: inline-block;
+}
+.what-do-you-think-child {
+  position: absolute;
+  height: 27.48%;
+  width: 48.18%;
+  top: 32.82%;
+  right: 49.83%;
+  bottom: 39.69%;
+  left: 1.98%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.thc-phm-kh {
+  position: absolute;
+  height: 16.03%;
+  width: 39.01%;
+  top: 39.69%;
+  left: 7.53%;
+  color: var(--color-white);
+  display: inline-block;
+}
+.what-do-you-think-item {
+  position: absolute;
+  height: 28.27%;
+  width: 44.89%;
+  top: 32.43%;
+  right: -0.17%;
+  bottom: 39.3%;
+  left: 55.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.thc-n-nu {
+  position: absolute;
+  height: 16.03%;
+  width: 38.63%;
+  top: 39.69%;
+  left: 59.08%;
+  display: inline-block;
+}
+.what-do-you-think-inner {
+  position: absolute;
+  height: 28.27%;
+  width: 40.26%;
+  top: 72.12%;
+  right: -0.17%;
+  bottom: -0.4%;
+  left: 59.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rau-c-qu {
+  position: absolute;
+  height: 16.03%;
+  width: 27.09%;
+  top: 79.39%;
+  left: 67.06%;
+  display: inline-block;
+}
+.rectangle-icon {
+  position: absolute;
+  height: 28.27%;
+  width: 53.14%;
+  top: 72.12%;
+  right: 45.05%;
+  bottom: -0.4%;
+  left: 1.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tht-cha-ch {
+  position: absolute;
+  height: 16.03%;
+  width: 43.25%;
+  top: 79.39%;
+  left: 7.11%;
+  display: inline-block;
+}
+.what-do-you-think {
+  position: absolute;
+  height: 18.48%;
+  width: 80.59%;
+  top: 65.59%;
+  right: 9.84%;
+  bottom: 15.94%;
+  left: 9.57%;
+  color: var(--color-dimgray-200);
+}
+.button,
+.ng {
+  position: absolute;
+}
+.ng {
+  height: 54.69%;
+  width: 37.97%;
+  top: 21.88%;
+  left: 31.68%;
+  display: inline-block;
+}
+.button {
+  height: 9.03%;
+  width: 80.59%;
+  top: 87.31%;
+  right: 9.84%;
+  bottom: 3.67%;
+  left: 9.57%;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+}
+.background {
+  position: absolute;
+  height: 84.11%;
+  width: 100%;
+  top: 15.89%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: var(--label-color-light-primary);
+}
+.close-icon,
+.quyn-gp1 {
+  position: absolute;
+  top: 0;
+}
+.quyn-gp1 {
+  left: 0;
+  font-weight: 600;
+}
+.close-icon {
+  height: 100%;
+  width: 18.52%;
+  right: 0;
+  bottom: 0;
+  left: 81.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.header {
+  position: absolute;
+  height: 4.93%;
+  width: 57.6%;
+  top: 8.62%;
+  right: 10.4%;
+  bottom: 86.45%;
+  left: 32%;
+  font-size: 24px;
+}
+.quyn-gp-child {
+  position: absolute;
+  height: 7.04%;
+  width: 13.6%;
+  top: 6.77%;
+  right: 80.27%;
+  bottom: 86.18%;
+  left: 6.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.border,
+.cap-icon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  height: 100%;
+  width: 90.43%;
+  top: 0;
+  right: 9.57%;
+  bottom: 0;
+  left: 0;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  opacity: 0.35;
+}
+.cap-icon {
+  height: 35.29%;
+  width: 5.46%;
+  top: 32.35%;
+  right: 0;
+  bottom: 32.35%;
+  left: 94.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.4;
+}
+.capacity {
+  position: absolute;
+  height: 64.71%;
+  width: 73.99%;
+  top: 17.65%;
+  right: 17.79%;
+  bottom: 17.65%;
+  left: 8.22%;
+  border-radius: 1.33px;
+  background-color: var(--color-white);
+}
+.battery {
+  position: absolute;
+  height: 25.76%;
+  width: 6.49%;
+  top: 39.39%;
+  right: 3.91%;
+  bottom: 34.85%;
+  left: 89.6%;
+}
+.wifi-icon {
+  position: absolute;
+  width: 15.27px;
+  height: 10.97px;
+  top: 39.39%;
+  right: 13%;
+}
+.cellular-connection-icon {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  top: 39.39%;
+  right: 20%;
+}
+.span {
+  letter-spacing: -0.28px;
+}
+.time {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 7.5px);
+  left: 0;
+  font-weight: 900;
+  display: inline-block;
+}
+.time-style {
+  position: absolute;
+  top: 13px;
+  left: 21px;
+  width: 54px;
+  height: 21px;
+}
+.iphone-xstatus-barsstatus-ba {
+  position: absolute;
+  height: 5.42%;
+  width: 100%;
+  top: 1.48%;
+  right: -1.33%;
+  bottom: 93.1%;
+  left: 1.33%;
+  text-align: center;
+}
+.quyn-gp {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-teal);
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
