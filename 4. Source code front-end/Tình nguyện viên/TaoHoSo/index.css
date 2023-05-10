@@ -1,19 +1,19 @@
+.rectangle,
 .to-h-s-child {
   position: absolute;
   top: 0;
-  left: 4px;
-  background-color: var(--color-teal);
-  width: 375px;
+  left: 0;
+}
+.to-h-s-child {
+  background-color: var(--color-teal-100);
+  width: 379px;
   height: 378px;
 }
 .rectangle {
-  position: absolute;
   height: 100%;
   width: 100%;
-  top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
 }
 .border,
 .cap-icon {
@@ -66,14 +66,14 @@
 }
 .wifi-icon {
   position: absolute;
-  width: 15.27px;
+  width: 15.11px;
   height: 10.97px;
-  top: 39.39%;
   right: 13%;
+  top: 39.39%;
 }
 .cellular-connection-icon {
   position: absolute;
-  width: 17px;
+  width: 16.82px;
   height: 10.67px;
   top: 39.39%;
   right: 20%;
@@ -238,11 +238,11 @@
   position: absolute;
   top: 297px;
   left: 16px;
-  border-radius: var(--br-base);
+  border-radius: 16px;
   background-color: var(--color-white);
   box-shadow: 0 15px 32px rgba(0, 0, 0, 0.12);
   width: 343px;
-  padding: var(--padding-13xl) var(--padding-5xl);
+  padding: 32px var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
   text-align: left;
@@ -255,20 +255,39 @@
   font-size: 28px;
   letter-spacing: 0.39px;
 }
-.to-h-s,
+.iocamera-icon,
 .union-icon {
   position: relative;
   width: 161.31px;
   height: 161.31px;
 }
-
-img.union-icon {
-  top: 101px;
+.union-icon{
+  position: absolute;
+  top: 108px;
+  right: 111px;
 }
-
+.iocamera-icon {
+  width: 24px;
+  height: 24px;
+}
+.iocamera-wrapper,
 .to-h-s {
-  border-radius: var(--br-11xl);
   background-color: var(--color-white);
+}
+.iocamera-wrapper {
+  position: absolute;
+  top: 225px;
+  left: 225px;
+  border-radius: var(--br-69xl);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.to-h-s {
+  position: relative;
+  border-radius: var(--br-11xl);
   width: 375px;
   height: 812px;
   overflow: hidden;

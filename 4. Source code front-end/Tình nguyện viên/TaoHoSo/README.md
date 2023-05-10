@@ -1,5 +1,5 @@
 
-  # FoodShare_HGĐ
+  # FoodShare_TNV
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
